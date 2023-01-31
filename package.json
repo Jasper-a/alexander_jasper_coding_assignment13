@@ -20,14 +20,6 @@
     "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx,json}",
     "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"This works!\""
-    }
-  },
-  "lint-staged": {
-    "*": "prettier --write"
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
