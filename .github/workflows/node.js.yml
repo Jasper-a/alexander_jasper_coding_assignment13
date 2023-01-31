@@ -24,6 +24,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: sudo npm run lint
-    - run: sudo npm run format
-    - run: sudo npm run test
+    - name: Run lint
+      run: sudo npm run lint
+    - name: Run prettier
+      run: sudo npm run format
+    - name: Run jest
+      run: sudo npm run test
