@@ -1,9 +1,9 @@
-import {  MouseEventHandler } from "react";
+import { MouseEventHandler } from 'react'
 
 export interface TextProps {
-    text?: string,
-    disabled?: boolean,
-    backgroundColor?: string,
-    display?: string,
-    size?: int
-};
+  text?: string
+  disabled?: boolean
+  backgroundColor?: string
+  display?: string
+  size?: int
+}

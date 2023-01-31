@@ -1,9 +1,9 @@
-import {  MouseEventHandler } from "react";
+import { MouseEventHandler } from 'react'
 
 export interface LabelProps {
-    text?: string,
-    disabled?: boolean,
-    backgroundColor?: string,
-    onClick?: MouseEventHandler<HTMLButtonElement>,
-    for_id?: string
-};
+  text?: string
+  disabled?: boolean
+  backgroundColor?: string
+  onClick?: MouseEventHandler<HTMLButtonElement>
+  for_id?: string
+}
