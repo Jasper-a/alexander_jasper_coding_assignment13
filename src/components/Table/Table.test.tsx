@@ -12,7 +12,7 @@ describe("Running Test for Table", () => {
 
   test("Table is disabled", () => {
     render(<Table disabled={true} role="table" />)
-    expect(screen.getByRole('table')).toBeDisabled();
+    expect(screen.getByRole('table')).toHaveAttribute('disabled', "");
   });
 
 });

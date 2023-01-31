@@ -12,7 +12,7 @@ describe("Running Test for HeroCard", () => {
 
   test("HeroCard is disabled", () => {
     render(<HeroCard disabled={true} role="herocard" />)
-    expect(screen.getByRole('herocard')).toBeDisabled();
+    expect(screen.getByRole('herocard')).toHaveAttribute('disabled', "");
   });
 
 });

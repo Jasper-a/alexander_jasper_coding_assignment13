@@ -12,7 +12,7 @@ describe("Running Test for Text", () => {
 
   test("Text is disabled", () => {
     render(<Text disabled={true} role="text" />)
-    expect(screen.getByRole('text')).toBeDisabled();
+    expect(screen.getByRole('text')).toHaveAttribute('disabled', "");
   });
 
 });

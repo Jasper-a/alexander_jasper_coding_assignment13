@@ -12,7 +12,7 @@ describe("Running Test for Img", () => {
 
   test("Img is disabled", () => {
     render(<Img disabled={true} role="img" />)
-    expect(screen.getByRole('img')).toBeDisabled();
+    expect(screen.getByRole('img')).toHaveAttribute('disabled', "");
   });
 
 });

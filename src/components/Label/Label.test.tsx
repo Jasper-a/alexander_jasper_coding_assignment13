@@ -12,7 +12,7 @@ describe("Running Test for Label", () => {
 
   test("Label is disabled", () => {
     render(<Label disabled={true} role="label" />)
-    expect(screen.getByRole('label')).toBeDisabled();
+    expect(screen.getByRole('label')).toHaveAttribute('disabled', "");
   });
 
 });

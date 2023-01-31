@@ -12,7 +12,7 @@ describe("Running Test for Dropdown", () => {
 
   test("Dropdown is disabled", () => {
     render(<Dropdown disabled={true} role="dropdown" />)
-    expect(screen.getByRole('dropdown')).toBeDisabled();
+    expect(screen.getByRole('dropdown')).toHaveAttribute('disabled', "");
   });
 
 });

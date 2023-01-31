@@ -12,7 +12,7 @@ describe("Running Test for RadioButton", () => {
 
   test("RadioButton is disabled", () => {
     render(<RadioButton disabled={true} role="radiobutton" />)
-    expect(screen.getByRole('radiobutton')).toBeDisabled();
+    expect(screen.getByRole('radiobutton')).toHaveAttribute('disabled', "");
   });
 
 });

@@ -12,7 +12,7 @@ describe("Running Test for Button", () => {
 
   test("Button is disabled", () => {
     render(<Button disabled={true} role="button" />)
-    expect(screen.getByRole('button')).toBeDisabled();
+    expect(screen.getByRole('button')).toHaveAttribute('disabled', "");
   });
 
 });
