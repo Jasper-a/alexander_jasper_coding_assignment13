@@ -24,6 +24,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: sudo npm run lint
-    - run: sudo npm run format
-    - run: sudo npm run test
+    - name: Run Lint
+      run: ./.github/scripts/run_lint.sh
+    - name: Run Format
+      run: ./.github/scripts/run_format.sh
+    - name: Run Test
+      run: ./.github/scripts/run_test.sh
