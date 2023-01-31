@@ -15,7 +15,6 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v3
@@ -25,8 +24,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: Run lint
-      run: sudo npm run lint
+      run: npm run lint
+      shell: bash
     - name: Run prettier
-      run: sudo npm run format
+      run: npm run format
+      shell: bash
     - name: Run jest
-      run: sudo npm run test
+      run: npm run test
+      shell: bash
