@@ -1,1 +1,1 @@
-npx eslint --fix src/**/*.{js,jsx,ts,tsx,json}
+sudo npx eslint --fix src/**/*.{js,jsx,ts,tsx,json}

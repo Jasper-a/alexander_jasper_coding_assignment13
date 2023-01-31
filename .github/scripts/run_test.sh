@@ -1,1 +1,1 @@
-npx jest
+sudo npx jest
