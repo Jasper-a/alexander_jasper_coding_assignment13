@@ -1,0 +1,15 @@
+* button
+* label
+* text
+table (need header, row, cell, footer)
+* dropdown
+* radio button
+* img
+* hero image
+* card
+
+all:
+remove pointer cursor and onClick as needed
+ensure test succeeds ( {name:"test"}?? )
+styled.* needs proper element name
+is onClick broken? (*.types.ts HTML*Element)
