@@ -35,15 +35,15 @@ const Table: FC<TableProps> = ({
   header1,
   header2,
   header3,
-  cell_11,
-  cell_12,
-  cell_13,
-  cell_21,
-  cell_22,
-  cell_23,
-  cell_31,
-  cell_32,
-  cell_33,
+  cell11,
+  cell12,
+  cell13,
+  cell21,
+  cell22,
+  cell23,
+  cell31,
+  cell32,
+  cell33,
   footer1,
   footer2,
   footer3,
@@ -60,19 +60,19 @@ const Table: FC<TableProps> = ({
       </thead>
       <tbody>
         <StyledRow>
-          <StyledCell>{cell_11}</StyledCell>
-          <StyledCell>{cell_12}</StyledCell>
-          <StyledCell>{cell_13}</StyledCell>
+          <StyledCell>{cell11}</StyledCell>
+          <StyledCell>{cell12}</StyledCell>
+          <StyledCell>{cell13}</StyledCell>
         </StyledRow>
         <StyledRow>
-          <StyledCell>{cell_21}</StyledCell>
-          <StyledCell>{cell_22}</StyledCell>
-          <StyledCell>{cell_23}</StyledCell>
+          <StyledCell>{cell21}</StyledCell>
+          <StyledCell>{cell22}</StyledCell>
+          <StyledCell>{cell23}</StyledCell>
         </StyledRow>
         <StyledRow>
-          <StyledCell>{cell_31}</StyledCell>
-          <StyledCell>{cell_32}</StyledCell>
-          <StyledCell>{cell_33}</StyledCell>
+          <StyledCell>{cell31}</StyledCell>
+          <StyledCell>{cell32}</StyledCell>
+          <StyledCell>{cell33}</StyledCell>
         </StyledRow>
       </tbody>
       <tfoot>

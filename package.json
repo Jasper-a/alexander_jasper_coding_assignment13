@@ -1,9 +1,9 @@
 {
-  "name": "@jasper-a/alexander_jasper_coding_assignment12",
+  "name": "@jasper-a/alexander_jasper_coding_assignment13",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/jasper-a"
   },
-  "version": "3.2.0",
+  "version": "4.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -14,7 +14,7 @@
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
-    "storybook": "start-storybook -p 8083",
+    "storybook": "start-storybook -p 8018",
     "build-storybook": "build-storybook",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
     "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx,json}",

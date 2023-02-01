@@ -5,5 +5,5 @@ export interface LabelProps {
   disabled?: boolean
   backgroundColor?: string
   onClick?: MouseEventHandler<HTMLButtonElement>
-  for_id?: string
+  forId?: string
 }

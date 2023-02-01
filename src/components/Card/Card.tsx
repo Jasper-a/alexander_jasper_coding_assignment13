@@ -20,14 +20,13 @@ const Card: FC<CardProps> = ({
   title,
   text,
   src,
-  img_width,
+  imgWidth,
   backgroundColor,
-  onClick,
   ...props
 }) => {
   return (
     <StyledCard disabled={disabled} backgroundColor={backgroundColor} {...props}>
-      <Img src={src} width={img_width} />
+      <Img src={src} width={imgWidth} />
       <Text text={title} centered='false' display='block' size='20px' />
       <Text text={text} centered='false' display='block' size='15px' />
     </StyledCard>

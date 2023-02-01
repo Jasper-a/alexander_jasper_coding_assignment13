@@ -1,5 +1,3 @@
-import { MouseEventHandler } from 'react'
-
 export interface ImgProps {
   src?: string
   disabled?: boolean

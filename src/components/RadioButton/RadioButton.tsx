@@ -27,7 +27,7 @@ const RadioButton: FC<RadioButtonProps> = ({
         disabled={disabled}
         {...props}
       />
-      <Label for_id={option} disabled={disabled} backgroundColor={backgroundColor} text={option} />
+      <Label forId={option} disabled={disabled} backgroundColor={backgroundColor} text={option} />
     </>
   )
 }
