@@ -1,5 +1,3 @@
-import { MouseEventHandler } from 'react'
-
 export interface TableProps {
   disabled?: boolean
   backgroundColor?: string
